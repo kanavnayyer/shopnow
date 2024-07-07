@@ -1,0 +1,75 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".UI.PurchaseFragment"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/textViewCardNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Card Number"
+        android:textSize="18sp"
+        android:textColor="@android:color/black"/>
+
+    <EditText
+        android:id="@+id/editTextCardNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewCardNumber"
+        android:inputType="number"
+        android:background="@drawable/edit_text_background"
+        android:padding="12dp"/>
+
+    <TextView
+        android:id="@+id/textViewExpiryDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextCardNumber"
+        android:layout_marginTop="16dp"
+        android:text="Expiry Date (MM/YYYY)"
+        android:textSize="18sp"
+        android:textColor="@android:color/black"/>
+
+    <EditText
+        android:id="@+id/editTextExpiryDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewExpiryDate"
+        android:inputType="number"
+        android:background="@drawable/edit_text_background"
+        android:padding="12dp"/>
+
+    <TextView
+        android:id="@+id/textViewCVV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextExpiryDate"
+        android:layout_marginTop="16dp"
+        android:text="CVV"
+        android:textSize="18sp"
+        android:textColor="@android:color/black"/>
+
+    <EditText
+        android:id="@+id/editTextCVV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewCVV"
+        android:inputType="numberPassword"
+        android:background="@drawable/edit_text_background"
+        android:padding="12dp"/>
+
+    <Button
+        android:id="@+id/buttonBuy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextCVV"
+        android:layout_marginTop="24dp"
+        android:text="Buy Now"
+
+        android:textSize="20sp"
+        android:textColor="@android:color/white"
+        android:background="@drawable/button_background"/>
+
+</RelativeLayout>

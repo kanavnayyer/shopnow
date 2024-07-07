@@ -1,0 +1,56 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <RadioGroup
+        android:id="@+id/priceRadioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/priceLow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Low to High" />
+
+        <RadioButton
+            android:id="@+id/priceHigh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="High to Low" />
+    </RadioGroup>
+
+    <RadioGroup
+        android:id="@+id/categoryRadioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/categoryAll"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="All" />
+
+        <RadioButton
+            android:id="@+id/categoryElectronics"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Electronics" />
+
+        <RadioButton
+            android:id="@+id/categoryClothing"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Clothing" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/applyFilterButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Apply Filter" />
+</LinearLayout>
