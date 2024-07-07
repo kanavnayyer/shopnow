@@ -35,3 +35,27 @@ Make sure you have the Kotlin Annotation Processing Plugin (kotlin-kapt) applied
 Becoming a Vendor
 If you're interested in becoming a vendor on ShopNow, you can find the vendor app code  here https://github.com/kanavnayyer/shopnowVendor. Feel free to explore and contribute to the vendor side of our platform!
 
+
+
+video
+
+
+
+
+
+
+
+
+
+
+https://github.com/kanavnayyer/shopnowuser/assets/78265974/9b5b8e25-3a15-40b7-b9e7-2847480e50e8
+
+
+
+
+
+
+
+
+
+
